@@ -1,0 +1,140 @@
+/* Custom styles for logo */
+.logo { 
+  max-width: 50px;
+  /* Adjust logo size as needed */
+}
+
+/* Custom styles for navbar */
+.navbar h5 {
+  color: white;
+}
+
+.navbar h5:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.navbar-custom {
+  background-color: #343a40;
+  /* Dark background color */
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+  /* Text color */
+  font-size: 18px;
+  width: 8rem;
+  justify-content: center;
+  text-align: center;
+  /* Font size */
+  padding: 8px 18px;  /* Padding around the links */
+  margin-right: 10px;  /* Right margin between links */
+  font-weight: normal;  /* Set default font weight to normal */
+  text-decoration: none;  /* Remove underline by default */
+  transition: color 0.3s ease;  /* Smooth transition for color change */
+}
+
+.navbar-custom .nav-link:hover {
+  background-color: #666765;
+  border-radius: 7px;
+  color: #000000;  /* Text color on hover */
+  font-weight: bold;  /* Make text bold on hover */
+  text-decoration: underline;  /* Underline on hover */
+}
+
+
+
+/* Contact Section */
+/* Custom styles for contact form */
+.contact-card {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* Background color of the card */
+}
+
+.contact-card .card-body {
+  padding: 2rem;
+}
+
+.contact-card h3 {
+  color: #333;
+  /* Heading color */
+}
+
+/* Input fields */
+.contact-card input[type="text"],
+.contact-card input[type="email"],
+.contact-card textarea {
+  border: 1px solid #ccc;
+  /* Border color */
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.contact-card input[type="text"]:focus,
+.contact-card input[type="email"]:focus,
+.contact-card textarea:focus {
+  border-color: #007bff;
+  /* Border color on focus */
+}
+
+/* Submit button */
+.contact-card button[type="submit"] {
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-card button[type="submit"]:hover {
+  background-color: #0056b3;
+  /* Button background color on hover */
+}
+
+
+
+/* style of divider */
+    .divider {
+      width: 50px;
+      height: 3px;
+      border-radius: 20rem;
+      margin: 20px auto;
+    }
+
+
+/* Custom styles for footer */
+.footer-icon {
+  font-size: 24px;
+  /* Set the default icon size */
+  transition: transform 0.3s ease;
+  /* Add smooth transition */
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  /* Increase size on hover */
+}
+
+/* Custom styles for footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  top: 100rem;
+  width: 100%;
+  background-color: #333;
+  /* Change background color as needed */
+  color: #fff;
+  /* Change text color as needed */
+  padding: 20px 0;
+  /* Adjust padding as needed */
+  text-align: center;
+}
